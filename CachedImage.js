@@ -19,7 +19,7 @@ const {
     Platform,
     StyleSheet,
 } = ReactNative;
-const { NetInfo } = require("@react-native-community/netinfo");
+const NetInfo = require("@react-native-community/netinfo");
 
 const styles = StyleSheet.create({
     image: {
